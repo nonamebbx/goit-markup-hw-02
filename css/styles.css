@@ -1,0 +1,21 @@
+/* Header  */
+.header {
+  /* Top line bg */
+
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 1440px;
+  height: 72px;
+  left: 0px;
+  top: 0px;
+
+  /* WHITE
+
+Header background, team card background
+*/
+  background: #ffffff;
+  /* CORNFLOWER */
+
+  border-bottom: 1px solid #e7e9fc;
+}
