@@ -1,15 +1,14 @@
 .body {
-  font-family: Roboto, sans-serif;
+  font-family: "Roboto", sans-serif;
   color: #434455;
   background-color: #ffffff;
 }
 /* Logotype */
-.logo-1 {
+.logo {
   font-family: "Raleway";
-
   color: #4d5ae5;
 }
-.logo-2 {
+.logo span {
   font-family: "Raleway";
   color: #2e2f42;
 }
