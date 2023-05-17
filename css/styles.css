@@ -1,18 +1,15 @@
-.body{
-font-family: Roboto;
-color: #434455;
-background-color: #FFFFFF;
+.body {
+  font-family: Roboto, sans-serif;
+  color: #434455;
+  background-color: #ffffff;
 }
 /* Logotype */
-.logo1{
-font-family: Raleway;
-font-weight: 800;
-font-size: 18px;
-line-height: 1.17;
-letter-spacing: 0.03em;
-text-transform: uppercase;
-color: #4d5ae5;
-}
-.logo2{
+.logo-1 {
+  font-family: "Raleway";
 
+  color: #4d5ae5;
+}
+.logo-2 {
+  font-family: "Raleway";
+  color: #2e2f42;
 }
