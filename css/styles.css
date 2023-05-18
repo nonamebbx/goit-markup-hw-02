@@ -4,7 +4,7 @@
   background-color: #ffffff;
 }
 /* Logotype */
-.logo {
+nav a {
   font-family: "Raleway", sans-serif;
   color: #4d5ae5;
   font-weight: 800;
@@ -14,9 +14,11 @@
   text-transform: uppercase;
   text-decoration: none;
 }
-.logo span {
+nav a span {
   font-family: "Raleway", sans-serif;
   color: #2e2f42;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
 }
 .link {
   text-decoration: none;
