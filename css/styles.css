@@ -9,14 +9,17 @@
   color: #4d5ae5;
   font-weight: 800;
   font-size: 18px;
-  line-height: 1, 17;
-  letter-spacing: 0, 03em;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
   text-transform: uppercase;
   text-decoration: none;
 }
 .logo span {
   font-family: "Raleway", sans-serif;
   color: #2e2f42;
+}
+.link {
+  text-decoration: none;
 }
 
 ul {
