@@ -3,29 +3,41 @@
   color: #434455;
   background-color: #ffffff;
 }
+
 /* Logotype */
-nav a {
+.logo {
   font-family: "Raleway", sans-serif;
-  color: #4d5ae5;
+  font-style: normal;
   font-weight: 800;
   font-size: 18px;
-  line-height: 1.17;
+  line-height: 21px;
+  display: flex;
+  align-items: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   text-decoration: none;
+  color: #4d5ae5;
 }
-nav a span {
+
+.logo span {
   font-family: "Raleway", sans-serif;
   color: #2e2f42;
   line-height: 1.17;
   letter-spacing: 0.03em;
 }
+
 .link {
   text-decoration: none;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
 }
 
-ul {
+.list {
   list-style: none;
 }
+
 :root {
 }
