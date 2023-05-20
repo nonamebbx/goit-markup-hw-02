@@ -10,7 +10,7 @@
   font-style: normal;
   font-weight: 800;
   font-size: 18px;
-  line-height: 21px;
+  line-height: 1.17;
   display: flex;
   letter-spacing: 0.03em;
   text-transform: uppercase;
@@ -36,6 +36,9 @@
 .link:hover {
   color: #404bbf;
 }
+.link:focus {
+  color: #404bbf;
+}
 
 .list {
   list-style: none;
@@ -43,6 +46,35 @@
 .contacts {
   font-style: normal;
 }
-
+/* Section 1 */
+.section-1 {
+  background-color: #2e2f42;
+}
+.header-1 {
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+}
+.butt {
+  background-color: #4d5ae5;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  cursor: pointer;
+}
+.butt:hover {
+  background-color: #404bbf;
+}
+.butt:focus {
+  background-color: #404bbf;
+}
+/* Section 2 */
+.section-2 {
+}
 :root {
 }
