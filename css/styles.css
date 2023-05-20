@@ -12,7 +12,6 @@
   font-size: 18px;
   line-height: 21px;
   display: flex;
-  align-items: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   text-decoration: none;
@@ -34,9 +33,15 @@
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
+.link:hover {
+  color: #404bbf;
+}
 
 .list {
   list-style: none;
+}
+.contacts {
+  font-style: normal;
 }
 
 :root {
