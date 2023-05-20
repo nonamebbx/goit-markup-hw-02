@@ -96,6 +96,7 @@
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
+  letter-spacing: 0.02em;
   text-transform: capitalize;
   color: #2e2f42;
 }
@@ -105,6 +106,16 @@
 }
 .team-list {
   background-color: #ffffff;
+}
+/* Footer */
+.footer {
+  background-color: #2e2f42;
+}
+.footer span {
+  color: #f4f4fd;
+}
+.footer p {
+  color: #f4f4fd;
 }
 :root {
 }
