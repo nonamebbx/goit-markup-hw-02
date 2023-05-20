@@ -43,14 +43,15 @@
 .list {
   list-style: none;
 }
-.contacts {
+.contacts ul li a {
   font-style: normal;
+  color: #434455;
 }
 /* Section 1 */
-.section-1 {
+.section-one {
   background-color: #2e2f42;
 }
-.header-1 {
+.header-one {
   font-size: 56px;
   line-height: 1.07;
   text-align: center;
@@ -74,7 +75,20 @@
   background-color: #404bbf;
 }
 /* Section 2 */
-.section-2 {
+.section-two {
+}
+.title-list {
+}
+.list-item h3 {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+.item-text {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 :root {
 }
