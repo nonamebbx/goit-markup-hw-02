@@ -11,7 +11,6 @@
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
-  display: flex;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   text-decoration: none;
@@ -43,8 +42,10 @@
 .list {
   list-style: none;
 }
-.contacts ul li a {
+.contacts {
   font-style: normal;
+}
+.contacts ul li a {
   color: #434455;
 }
 /* Section 1 */
@@ -75,20 +76,35 @@
   background-color: #404bbf;
 }
 /* Section 2 */
-.section-two {
-}
 .title-list {
 }
-.list-item h3 {
+.title-item {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
+.list-item {
+}
 .item-text {
   line-height: 1.5;
   letter-spacing: 0.02em;
+}
+/* Section 3 */
+.title {
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  text-transform: capitalize;
+  color: #2e2f42;
+}
+/* Section 4 */
+.teammates {
+  background-color: #f4f4fd;
+}
+.team-list {
+  background-color: #ffffff;
 }
 :root {
 }
