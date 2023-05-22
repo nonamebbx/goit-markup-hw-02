@@ -139,7 +139,12 @@
 .footer p {
   color: #f4f4fd;
 }
+.footer-decription {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
 .list button {
+  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -148,7 +153,6 @@
   background-color: #f4f4fd;
 }
 .button {
-  font-family: "Roboto", sans-serif;
 }
 .list button:hover {
   color: #ffffff;
@@ -160,4 +164,5 @@
   cursor: pointer;
 }
 :root {
+  font-family: "Roboto", sans-serif;
 }
