@@ -1,4 +1,4 @@
-.page {
+.page:root {
   font-family: "Roboto", sans-serif;
   color: #434455;
   background-color: #ffffff;
@@ -20,6 +20,7 @@
 }
 
 .link {
+  font-family: "Roboto", sans-serif;
   text-decoration: none;
   font-weight: 500;
   font-size: 16px;
@@ -43,6 +44,12 @@
 }
 .contacts ul li a {
   color: #434455;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 /* Section 1 */
 .section-one {
@@ -75,6 +82,7 @@
 .title-list {
 }
 .title-item {
+  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -84,6 +92,7 @@
 .list-item {
 }
 .item-text {
+  font-family: "Roboto", sans-serif;
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
@@ -152,7 +161,14 @@
   color: #4d5ae5;
   background-color: #f4f4fd;
 }
-.button {
+.filter-button {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #4d5ae5;
+  background-color: #f4f4fd;
 }
 .list button:hover {
   color: #ffffff;
@@ -163,6 +179,6 @@
   background-color: #404bbf;
   cursor: pointer;
 }
-:root {
+/* :root {
   font-family: "Roboto", sans-serif;
-}
+} */
