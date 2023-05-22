@@ -103,6 +103,22 @@
 .team-list {
   background-color: #ffffff;
 }
+/* Portfolio */
+.project-title {
+  font-family: "Roboto" sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+}
+.portfolio-description {
+  font-family: "Roboto" sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
 /* Footer */
 .footer {
   background-color: #2e2f42;
@@ -124,7 +140,6 @@
   color: #f4f4fd;
 }
 .list button {
-  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -133,8 +148,13 @@
   background-color: #f4f4fd;
 }
 .button {
+  font-family: "Roboto", sans-serif;
 }
 .list button:hover {
+  color: #ffffff;
+  background-color: #404bbf;
+}
+.list button:focus {
   color: #ffffff;
   background-color: #404bbf;
   cursor: pointer;
