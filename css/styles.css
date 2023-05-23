@@ -1,7 +1,12 @@
+:root {
+  --font-family: "Roboto", sans-serif;
+  --text-color: #434455;
+  --background-color: #ffffff;
+}
 .page {
-  font-family: "Roboto", sans-serif;
-  color: #434455;
-  background-color: #ffffff;
+  font-family: var(--font-family);
+  color: var(--text-color);
+  background-color: var(--background-color);
 }
 /* Logotype */
 .header nav > a {
@@ -185,9 +190,4 @@
   color: #ffffff;
   background-color: #404bbf;
   cursor: pointer;
-}
-:root {
-  font-family: "Roboto", sans-serif;
-  color: #434455;
-  background-color: #ffffff;
 }
