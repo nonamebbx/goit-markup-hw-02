@@ -3,12 +3,6 @@
   color: #434455;
   background-color: #ffffff;
 }
-.page:root {
-  font-family: "Roboto", sans-serif;
-  color: #434455;
-  background-color: #ffffff;
-}
-
 /* Logotype */
 .header nav > a {
   font-family: "Raleway", sans-serif;
@@ -33,10 +27,17 @@
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
-
-.link:hover {
-  color: #404bbf;
+.link h2 {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
 }
+.link p {
+  color: #434455;
+}
+
+.link:hover,
 .link:focus {
   color: #404bbf;
 }
@@ -185,6 +186,8 @@
   background-color: #404bbf;
   cursor: pointer;
 }
-/* :root {
+:root {
   font-family: "Roboto", sans-serif;
-} */
+  color: #434455;
+  background-color: #ffffff;
+}
